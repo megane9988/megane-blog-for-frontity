@@ -14,7 +14,7 @@ const FeaturedMedia = ({ state, actions, libraries, id, ...props }) => {
   if (noImgProps) return null;
 
   return (
-    <Box as="figure" mt={4} height="500px" {...props}>
+    <Box as="figure" mt={4} height="100px" {...props}>
       <Box as={Image} size="100%" objectFit="cover" {...imgProps} />
     </Box>
   );

@@ -35,7 +35,7 @@ const Footer = ({ state }) => (
         fontFamily="heading"
         textTransform="uppercase"
       >
-        © {new Date().getFullYear()} Frontity
+        © {new Date().getFullYear()} mgn
       </FooterSectionItem>
 
       <FooterSectionItem borderColor="accent.400">
@@ -51,7 +51,7 @@ const Footer = ({ state }) => (
         fontFamily="heading"
         textTransform="uppercase"
       >
-        Made with Frontity
+        Made with mgn
       </FooterSectionItem>
     </FooterSectionGroup>
   </FooterSection>

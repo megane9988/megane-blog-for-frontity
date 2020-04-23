@@ -34,11 +34,12 @@ const Theme = ({ state, libraries }) => {
       <FontFace />
       <CSSReset />
       {/* Add some metatags to the <head> of the HTML. */}
+
+      <meta name="robots" content="noindex , nofollow" />
       <Title />
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="ja" />
-        <meta name="robots" content="noindex , nofollow" />
       </Head>
 
       {/* Add the header of the site. */}
