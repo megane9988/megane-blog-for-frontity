@@ -37,7 +37,8 @@ const Theme = ({ state, libraries }) => {
       <Title />
       <Head>
         <meta name="description" content={state.frontity.description} />
-        <html lang="en" />
+        <html lang="ja" />
+        <meta name="robots" content="noindex , nofollow" />
       </Head>
 
       {/* Add the header of the site. */}
