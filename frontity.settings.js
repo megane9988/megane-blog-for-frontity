@@ -9,17 +9,13 @@ const settings = {
   },
   "packages": [
     {
-      "name": "@frontity/mars-theme",
+      "name": "frontity-chakra-theme",
       "state": {
         "theme": {
           "menu": [
             [
               "Home",
               "/"
-            ],
-            [
-              "Blog",
-              "/blog/"
             ],
             [
               "About",
@@ -45,7 +41,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://megane-blog.com/wp-json"
+          "api": "https://www.m-g-n.me/wp-json"
         }
       }
     },
