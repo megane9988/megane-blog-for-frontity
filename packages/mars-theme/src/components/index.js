@@ -22,7 +22,8 @@ const Theme = ({ state }) => {
       <Title />
       <Head>
         <meta name="description" content={state.frontity.description} />
-        <html lang="en" />
+        <html lang="ja" />
+		<meta name="robots" content="noindex , nofollow" />
       </Head>
 
       {/* Add some global styles for the whole site, like body or a's. 

@@ -2,14 +2,15 @@ const settings = {
   "name": "my-app",
   "state": {
     "frontity": {
-      "url": "https://www.m-g-n.me/",
-      "title": "株式会社mgn",
+      "url": "https://jamstack.demodemo.link/",
+      "title": "jamstack test mgn",
       "description": "WordPressでのWebサイトの制作"
     }
   },
   "packages": [
     {
-      "name": "frontity-chakra-theme",
+	
+      "name": "frontity-starter-theme",
       state: {
         theme: {
           // The logo can be a text or an image url
@@ -28,14 +29,6 @@ const settings = {
               "About",
               "/about/"
             ],
-            [
-              "Portfolio",
-              "/category/portfolio/"
-            ],
-            [
-              "News",
-              "/category/news/"
-            ]
           ],
           // the social links
           socialLinks: [
@@ -77,12 +70,13 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://www.m-g-n.me/wp-json"
+          "api": "https://jamstack.demodemo.link/wp-json"
         }
       }
     },
     "@frontity/tiny-router",
-    "@frontity/html2react"
+	"@frontity/html2react",
+    "@frontity/head-tags"
   ]
 };
 

@@ -1,0 +1,68 @@
+{
+  "_from": "frontity-starter-theme",
+  "_id": "frontity-starter-theme@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-TpDRCrH09PK/ZMlKwJ9BkZcDfWt+2dQrS5ETbl8hEct/fUivCad8KHdNbY93CqFQCKLr45Ef/+O1nd4tMSUoKA==",
+  "_location": "/frontity-starter-theme",
+  "_phantomChildren": {
+    "@emotion/core": "10.0.28"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "frontity-starter-theme",
+    "name": "frontity-starter-theme",
+    "escapedName": "frontity-starter-theme",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/frontity-starter-theme/-/frontity-starter-theme-0.0.1.tgz",
+  "_shasum": "8a8dc61c115f9a2e1d075f578b3c4d53ebee337c",
+  "_spec": "frontity-starter-theme",
+  "_where": "/Users/mgn_megane/Desktop/frontity/meagne-blog/packages",
+  "bugs": {
+    "url": "https://community.frontity.org"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@frontity/components": "^1.3.0",
+    "@frontity/html2react": "^1.3.1",
+    "@theme-ui/color": "^0.3.1",
+    "@theme-ui/components": "^0.3.1",
+    "@theme-ui/presets": "^0.3.0",
+    "frontity": "^1.5.2",
+    "grommet": "^2.11.2",
+    "grommet-icons": "^4.4.0",
+    "lodash": "^4.17.15",
+    "polished": "^3.4.4",
+    "react-headroom": "^3.0.0",
+    "react-icons-kit": "^1.3.1",
+    "react-spinners": "^0.8.1",
+    "styled-components": "^5.0.1",
+    "theme-ui": "^0.3.1"
+  },
+  "deprecated": false,
+  "description": "A starter theme for Frontity, styled with theme-ui, and with dark mode",
+  "homepage": "https://frontity.org",
+  "keywords": [
+    "frontity",
+    "frontity-theme",
+    "theme-ui",
+    "dark-mode"
+  ],
+  "license": "Apache-2.0",
+  "name": "frontity-starter-theme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexadark/frontity-starter-theme.git"
+  },
+  "version": "0.0.1"
+}
